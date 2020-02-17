@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #1A535C;
+    color: #F7FFF7;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #F7FFF7;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #F7FFF7;
+    margin: 5px;
+} 
+
+@media screen and (max-width: 1024px) {
+    .nav-links {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 786px) {
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #1A535C;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translate(100%);
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+    }
+
+}
