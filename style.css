@@ -33,7 +33,7 @@ nav {
     background-color: #1A535C;
     color: #F7FFF7;
     font-family: 'Roboto', sans-serif;
-
+    padding: 5px 0;
 }
 
 .nav-links {
@@ -163,7 +163,8 @@ nav {
     font-size: 40px;
     font-weight: 300;
     margin-bottom: 10px;
-    font-family: 'Italianno', cursive;
+    font-family: cursive;
+    color: #F7FFF7;
 }
 
 
@@ -172,13 +173,13 @@ nav {
 @media screen and (max-width: 786px) {
 
     .banner-text {
-        top: 30%
+        top: 40%
     }
     .banner-text > h1 {
         font-size: 50px;
     }
 
     .banner-text > p {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
