@@ -192,35 +192,27 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
-    padding: 3%;
     background-color: #4ECDC4 ;
+}
+.welcome-section-items {
+    width: 70%;
+
     color: #F7FFF7;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    padding-bottom: 5%;
 }
 
-.image-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    padding: 5% 0;
-    
-}
-.images {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    text-align: center;
-}
-.image-container > div > img {
-    width:300px;
-    height: 300px;
-    border: 2px solid #F7FFF7;
-    margin: 1%;
+.welcome-section-items > h1 {
    
+    padding: 5% 0;
+    font-size: 30px;
+
+}
+
+.welcome-section-items > p {
+    text-align: justify;
+    text-justify: inter-character;
+    font-size: 20px;
+
 }
